@@ -6,7 +6,7 @@
     'version'       : "16.0.1.0",
     'category'      : "Human Resources/Employees",
 
-    "contributors": [],
+    "contributors": [ ],
 
     'sequence': 1,
 
