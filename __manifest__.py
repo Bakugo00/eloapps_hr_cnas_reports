@@ -6,13 +6,7 @@
     'version'       : "16.0.1.0",
     'category'      : "Human Resources/Employees",
 
-    "contributors": [
-        "1 <Sofiane AMRAOUI >",
-        "2 <Abdelhakim ABOURA >",
-        "3 <Fatima MESSADI >",
-        "4 <Yassamine CHENAFA >",
-        "5 <Chems Eddine SAHININE >",
-    ],
+    "contributors": [],
 
     'sequence': 1,
 
