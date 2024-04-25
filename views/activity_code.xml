@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  
+    <record id="activity_code_view_tree" model="ir.ui.view">
+        <field name="name">activity.code.view.tree</field>
+        <field name="model">activity.code</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="code"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="activity_code_search_view" model="ir.ui.view">
+        <field name="name">activity.code.view.search</field>
+        <field name="model">activity.code</field>
+        <field name="arch" type="xml">
+            <search string = "Search Activity Code">
+                <field name="name"/>
+                <field name="code"/>
+            </search>
+        </field>
+    </record>
+
+     <record id='activity_code_action' model='ir.actions.act_window'>
+        <field name="name">Code d'activité</field>
+        <field name="res_model">activity.code</field>
+        <field name="view_mode">tree,form,search</field>
+    </record>
+
+ 
+
+</odoo>

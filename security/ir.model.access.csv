@@ -1,0 +1,10 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+acl_declaration_cotisation,declaration_cotisation_default,model_declaration_cotisation,base.group_user,1,1,1,1
+acl_cotisation_line,cotisation_line_default,model_cotisation_line,base.group_user,1,1,1,1
+acl_abatement_base,abatement_base_default,model_abatement_base,base.group_user,1,1,1,1
+acl_movement_employees,movement_employees_default,model_movement_employees,base.group_user,1,1,1,1
+acl_declaration_das,declaration_das_default,model_declaration_das,base.group_user,1,1,1,1
+acl_lot_declaration_cotisation,lot_declaration_cotisation_default,model_lot_declaration_cotisation,base.group_user,1,1,1,1
+acl_declaration_das_line,declaration_das_line_default,model_declaration_das_line,base.group_user,1,1,1,1
+employee_list,employee_list,model_employee_list,base.group_user,1,1,1,1
+access_activity_code,activity.code,model_activity_code,base.group_user,1,1,1,1

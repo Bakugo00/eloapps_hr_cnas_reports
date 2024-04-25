@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="declaration_cotisation_repport" model="ir.actions.report">
+            <field name="model">declaration.cotisation</field>
+            <field name="name">Déclaration d'Assiette de cotisation</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">eloapps_hr_cnas_reports.report_declaration_cnas_doc</field>
+            <field name="report_file">eloapps_hr_cnas_reports.report_declaration_cnas_doc</field>
+            <field name="print_report_name">(object.name+'.pdf')</field>
+        </record>
+
+        <record id="declaration_das_repport" model="ir.actions.report">
+        <field name="model">declaration.das</field>
+        <field name="name">Déclaration annuelle des salariés</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">eloapps_hr_cnas_reports.report_declaration_das_doc</field>
+        <field name="report_file">eloapps_hr_cnas_reports.report_declaration_das_doc</field>
+        <field name="print_report_name">(object.name+'.pdf')</field>
+    </record>
+    </data>
+</odoo>
